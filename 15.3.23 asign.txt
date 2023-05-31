@@ -1,0 +1,50 @@
+Q1. expalin the following with examples:
+1. artificial intelligence
+2. machine learning
+3. deep learning.
+ans:- 1. Artificial Intelligence - AI is the small application that can perform its own tasks without any human intervention . example- self-driving car.
+
+2. machine learning - It provides stats tool to analyse, visualise , predictive models and forecasting. Example -  Netflix and Amazon recommendation system.
+
+3. Deep learning -  Mimic the human brain. Example -  object detection.
+
+
+Q2.What is supervised learning? List some examples of supervised learning.
+ans:- Supervised learning is a type of machine learning in which a computer algorithm learns to make predictions or decisions based on labeled data.
+Example - Email Filtering
+
+Q3. What is unsupervised learning? List some examples of unsupervised learning.
+ans:- Unsupervised learning is when it can provide a set of unlabelled data, which it is required to analyze and find patterns inside. Example- dimension reduction and clustering.
+
+Q4.What is the difference between AI , ML , DL & DS?
+ans:-  1. Artificial Intelligence - AI is the small application that can perform its own tasks without any human intervention . example- self-driving car.
+
+2. machine learning - It provides stats tool to analyse, visualise , predictive models and forecasting. Example -  Netflix and Amazon recommendation system.
+
+3. Deep learning -  Mimic the human brain. Example -  object detection.
+
+4. Data science - Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. 
+
+
+Q5.What is the main difference between supervised, unsupervised and semi - supervised learning?
+ans:- Supervised Learning is a category in which we feed labeled data as input to the machine learning model.
+
+Unsupervised learning is a category of machine learning in which we only have the input data fed to the model but no corresponding output data.
+
+Semi-supervised learning is a category of machine learning in which we have input data, and only some of those input data are labeled as the output.
+
+
+Q6.What is train, test and validation split? Explain the importance of each.
+ans:- Training Set: The dataset that we feed our model to learn potential underlying patterns and relationships.The training set should not be too small; else, the model will not have enough data to learn.
+
+Validation Set: The dataset that we use to understand our model's performance across different model types and hyperparameter choices.Validation split helps to improve the model performance by fine-tuning the model.
+
+Test Set: The dataset that we use to approximate our model's unbiased accuracy in the wild.The test set informs us about the final accuracy of the model after completing the training phase.
+
+Q7.How can unsupervised learning be used in anomaly detection?
+ans:- The objective of Unsupervised Anomaly Detection is to detect previously unseen rare objects or events without any prior knowledge about these. The only information available is that the percentage of anomalies in the dataset is small, usually less than 1%. 
+
+
+Q8.List down some commonly used supervised learning algorithm  and unsupervised learning algorithm.
+ans:- The most commonly used Supervised Learning algorithms are decision tree, logistic regression, linear regression, support vector machine. The most commonly used Unsupervised Learning algorithms are k-means clustering, hierarchical clustering, and apriori algorithm.
+
