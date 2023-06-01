@@ -1,0 +1,65 @@
+Q1: Define overfitting and underfitting in machine learning. What are the consequences of each, and how
+can they be mitigated?
+ans:- Overfitting occurs when our machine learning model tries to cover all the data points or more than the required data points present in the given dataset. 
+consequences - An overfit model can give inaccurate predictions and cannot perform well for all types of new data.
+It can be mitigated by:
+a.Cross-Validation
+b.Training with more data
+c.Removing features
+d.Regularization
+
+Underfitting occurs when our machine learning model is not able to capture the underlying trend of the data.
+consequences-  it cannot establish the dominant trend within the data, resulting in training errors and poor performance of the model.
+It can be mitigated by:
+a.By increasing the training time of the model.
+b.By increasing the number of features.
+
+
+
+Q2: How can we reduce overfitting? Explain in brief.
+ans: we can reduce overfitting by :
+a.Early stopping - Early stopping pauses the training phase before the machine learning model learns the noise in the data. However, getting the timing right is important; else the model will still not give accurate results.
+
+b.Regularization - Regularization is a collection of training/optimization techniques that seek to reduce overfitting. These methods try to eliminate those factors that do not impact the prediction outcomes by grading features based on importance.
+
+c.Ensembling - Ensembling combines predictions from several separate machine learning algorithms. Some models are called weak learners because their results are often inaccurate. 
+
+
+Q3: Explain underfitting. List scenarios where underfitting can occur in ML.
+ans:- Underfitting is another type of error that occurs when the model cannot determine a meaningful relationship between the input and output data.
+Scenerios where underfitting can occur are:
+a.It occurs when a model is too simple.
+b. It cannot create a relationship between the input and the output.
+c. When the model is not trained well and neither performs well in test.
+
+
+Q4: Explain the bias-variance tradeoff in machine learning. What is the relationship between bias and variance, and how do they affect model performance?
+ans:- If the model is very simple with fewer parameters, it may have low variance and high bias. Whereas, if the model has a large number of parameters, it will have high variance and low bias. So, it is required to make a balance between bias and variance errors, and this balance between the bias error and variance error is known as the Bias-Variance trade-off.
+Bias and variance are inversely connected.
+A model that exhibits small variance and high bias will underfit the target, while a model with high variance and little bias will overfit the target. A model with low variance and low bias may represent the data set accurately .
+
+
+Q5: Discuss some common methods for detecting overfitting and underfitting in machine learning models. How can you determine whether your model is overfitting or underfitting?
+ans:- common methods for detecting overfitting and underfitting in machine learning models are:
+a.Leaning curve.
+b. Scikit-Learn.
+
+We can determine whether a predictive model is underfitting or overfitting the training data by looking at the prediction error on the training data and the evaluation data.Your model is underfitting the training data when the model performs poorly on the training data. Your model is overfitting when  your training data performs well on the training data but does not perform well on the evaluation data.
+
+
+Q6: Compare and contrast bias and variance in machine learning. What are some examples of high bias and high variance models, and how do they differ in terms of their performance?
+ans:- While making predictions, a difference occurs between prediction values made by the model and actual values/expected values, and this difference is known as bias errors or Errors due to bias.
+variance tells that how much a random variable is different from its expected value.
+
+High-Bias, High-Variance: With high bias and high variance, predictions are inconsistent and also inaccurate on average.
+High variance can be identified if the model has:
+Low training error and high test error.
+High Bias can be identified if the model has:
+High training error and the test error is almost similar to training error.
+
+
+Q7: What is regularization in machine learning, and how can it be used to prevent overfitting? Describe some common regularization techniques and how they work.
+ans:- Regularization in machine learning is the process of regularizing the parameters that constrain, regularizes, or shrinks the coefficient estimates towards zero. 
+Regularization is a technique that adds information to a model to prevent the occurrence of overfitting. It is a type of regression that minimizes the coefficient estimates to zero to reduce the capacity of a model.
+
+
